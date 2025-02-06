@@ -2,27 +2,33 @@ namespace FileManagmentService.ExtraFolder;
 
 public class WorkingWithDelegate
 {
+    public delegate void MyDelegate(int a, int b, int c);
     public static void Main(string[] args)
     {
-        Delegate myDelegate = MyMethod(3,5,6);
-        myDelegate(MyMethod2("uzb", 5, 6));
-        myDelegate(MyMethod3("salom", 5, 6));
-        myDelegate.
+        var myDelegate = new MyDelegate(MyMethod);
+        myDelegate += MyMethod2;
+        myDelegate += MyMethod3;
+        myDelegate(9, 10, 2);
         
     }
 
-    public static Delegate MyMethod(int a, int b, int c)
+    public static void MyMethod(int a, int b, int c)
     {
         Console.WriteLine(a+b+c);
     }
 
-    public static void MyMethod2(string a, int b, int c)
+    public static void MyMethod2(int a, int b, int c)
     {
         Console.WriteLine($"{a}" +b+c);
     }
 
-    public static void MyMethod3(string a, int b, int c)
+    public static void MyMethod3(int a, int b, int c)
     {
         Console.WriteLine($"{a}" +b/c);
     }
+}
+
+public class MyDelegate
+{
+    
 }
