@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFileManagmentServer", "WebFileManagmentServer\WebFileManagmentServer.csproj", "{7BE2F89E-0A88-4B2E-8505-18710FD8E036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagmentService", "FileManagmentService\FileManagmentService.csproj", "{5DF5CD8A-A7E0-4E2E-B115-A8C49D422181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManagment.StorageBroker", "FileManagment.StorageBroker\FileManagment.StorageBroker.csproj", "{4A58FA41-B4CF-4461-AE09-E380CFBDB4CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BE2F89E-0A88-4B2E-8505-18710FD8E036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BE2F89E-0A88-4B2E-8505-18710FD8E036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BE2F89E-0A88-4B2E-8505-18710FD8E036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BE2F89E-0A88-4B2E-8505-18710FD8E036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DF5CD8A-A7E0-4E2E-B115-A8C49D422181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF5CD8A-A7E0-4E2E-B115-A8C49D422181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF5CD8A-A7E0-4E2E-B115-A8C49D422181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF5CD8A-A7E0-4E2E-B115-A8C49D422181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A58FA41-B4CF-4461-AE09-E380CFBDB4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A58FA41-B4CF-4461-AE09-E380CFBDB4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A58FA41-B4CF-4461-AE09-E380CFBDB4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A58FA41-B4CF-4461-AE09-E380CFBDB4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
